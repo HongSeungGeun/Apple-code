@@ -1,0 +1,55 @@
+.navbar li {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-content {
+    width: 80%;
+    height: 200px;
+    background : rgb(255, 255, 255);
+    float: left;
+}
+
+.img {
+    width: 20%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+
+.blog-profile {
+    width: 50px;
+    float: left;
+}
+
+.top-content {
+    float: left;
+}
+
+.bottom {
+    clear: both;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.blog-img {
+    width: 160px;
+    height: 200px;
+}

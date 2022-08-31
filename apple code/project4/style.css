@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+table { 
+    border-collapse: collapse;
+}
+
+.cart-background {
+    width: 100%;
+    padding: 30px;
+    background-color: #c2d3de;
+    box-sizing: border-box;
+}
+
+.cart-table {
+    width : 100%;
+    max-width: 700px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.cart-table td, .cart-table th {
+    padding: 10px;
+    border-bottom: solid 1px #c2d3de;
+    text-align: center;
+}
+
+.cart-table th:nth-child(5 ) {
+    color: red;
+}
+
+.table-button {
+    padding: 15px;
+    background-color: rgb(51, 111, 151);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    float: right;
+}

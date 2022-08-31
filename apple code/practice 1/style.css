@@ -1,0 +1,43 @@
+.KJS {
+    width: 100px; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.name {
+    text-align: center;
+}
+
+
+.color1 {
+    color: red;
+    font-weight: 900;
+}
+
+
+
+.color2 {
+    font-weight: 900;
+    color: blue;
+}
+
+.job {
+    text-align: center;
+}
+
+
+.box {
+    width: 200px;
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}

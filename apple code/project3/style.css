@@ -1,0 +1,52 @@
+.input,div,textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.from-gray {
+    background-color: gray;
+    padding: 30px;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    border: solid 1;
+    border-radius: 5px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-height {
+    height: 200px;
+}
+
+.form-button {
+    background-color: orange;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 15px;
+    float: right;
+}
