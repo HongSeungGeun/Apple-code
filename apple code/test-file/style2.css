@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    width: 70px;
+}
+
+
+.all-background {
+    background-color: rgb(120, 153, 243);
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.table-background {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 7px;
+    margin-bottom: 40px;
+}
+
+.table-button {
+    float: right;
+    background-color: navy;
+    color: white;
+    padding :14px;
+    border-radius: 6px;
+}
+
+
+.table-background td, .table-background th {
+    border-bottom: solid 1px skyblue;
+    text-align: center;
+    padding: 10px;
+}
+
+.table-background th:nth-child(5) {
+    color: red;
+}

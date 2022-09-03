@@ -30,7 +30,7 @@ table {
     text-align: center;
 }
 
-.cart-table th:nth-child(5 ) {
+.cart-table th:nth-child(5) {
     color: red;
 }
 
@@ -41,4 +41,5 @@ table {
     border: none;
     border-radius: 7px;
     float: right;
+    cursor: pointer;
 }

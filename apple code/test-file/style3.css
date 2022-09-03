@@ -1,0 +1,31 @@
+.flex-container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+
+.flex-item {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .flex-item {
+        width: 50%;
+    }
+    .flex-container {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flex-item {
+        width: 100%;
+    }
+}
+
