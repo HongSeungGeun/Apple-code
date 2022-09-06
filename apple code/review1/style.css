@@ -1,80 +1,75 @@
-.flex-container{
+.main-container {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    margin-top: 50px ;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
-
-.flex-item {
+.main-contents {
     float: left;
     width: 25%;
     text-align: center;
 }
 
 
-.flex-container i {
-    background-color: burlywood;
+.main-contents i {
+    background-color:burlywood;
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    padding-top: 25px;
     box-sizing: border-box;
+    padding-top: 25px;
     color: white;
-    margin-top: 30px;
 }
 
 
-
-
-.shop-bg {
+.ani {
     background-color: #eee;
     padding: 20px;
 }
 
-.shop-container {
+
+.ani-container {
     display: flex;
     max-width: 90%;
     margin: auto;
 }
 
-.shop-item {
+.ani-contents {
     width: 33%;
     padding: 10px;
 }
 
-.shop-item img {
+.ani-contents img {
     width: 100%;
     display: block;
 }
 
 
-
-.overlay-wrap {
+.ani-overlay-wrap {
     position: absolute;
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
 
-
-
-.overlay {
+.ani-overlay {
     width: 100%;
-    height : 100%;
-    background-color: rgba(0,0,0,0.5);
-    transition: all 1s;
-    margin-top: 200%;
-    font-size: 60px;
+    height: 100%;
     color: white;
+    font-size: 60px;
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 200%;
+    transition: all 1s;
+}
+
+.ani-overlay-wrap:hover .ani-overlay{
+    margin-top: 70%;
 }
 
 
-.overlay-wrap:hover .overlay {
-    margin-top: 60%;
-}
 
 
 
@@ -82,19 +77,16 @@
 
 
 @media screen and (max-width: 1200px) {
-    .flex-item {
+    .main-contents {
         width: 50%;
     }
-    .flex-container {
+    .main-container {
         max-width: 600px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .flex-item {
+@media screen and (max-width: 564px) {
+    .main-contents {
         width: 100%;
     }
 }
-
-
-
