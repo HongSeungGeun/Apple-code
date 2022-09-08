@@ -1,0 +1,177 @@
+body {
+    margin: 0%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.port-background {
+    background-image: linear-gradient(rgb(57, 130, 240),rgb(123, 50, 241));
+    color: white;
+}
+
+
+.port-container1 {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.port-contents1 {
+    float: left;
+    margin-top: 50px;
+}
+
+
+.port-contents2 {
+    width: 400px;
+    float: right;
+    margin-top: 95px;
+}
+
+.port-button1 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.port-button1:hover {
+    background-color: red;
+}
+
+.port-container2 {
+    width: 100%;
+    text-align: center;
+}
+
+.port-container3 {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: slateblue;
+    text-align: center;
+    color: white;
+}
+
+
+.port-contents3 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.port-contents3 i {
+    background-color: white;
+    color: slateblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+.port-container4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+
+.port-img1 {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(../img/portfolio/img2.png);
+    background-size: cover;
+}
+
+.port-img2 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio/img3.png);
+    background-size: cover;
+}
+
+.port-img3 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio/img4.png);
+    background-size: cover;
+}
+
+.port-img4 {
+    float: left;
+    width: 50%;
+    height: 350px;
+    background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/portfolio/img5.png);
+    background-size: cover;
+}
+
+.port-contents4 {
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.port-text {
+    color: white;
+    padding: 50px;
+    width: 100%;
+}
+
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index : 2;
+    border : 0px solid white;
+    transition: all 1s;
+}
+
+.white-box:hover {
+    border: 30px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 992px) {
+    .port-contents2 {
+    width: 260px;
+    display: block;
+    float: none;
+    margin: auto;
+    margin-top: 42px;
+    }
+    .port-contents1 {
+    float: none;
+    margin-top: 50px;
+    text-align: center;
+    }
+}
